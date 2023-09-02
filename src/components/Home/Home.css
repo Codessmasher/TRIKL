@@ -1,0 +1,42 @@
+body{
+    background: #1ba879;
+}
+.searchImg {
+    margin: 2px;
+    height: 50px;
+    border-radius: 8px;
+    width: 100%; 
+    max-width: 600px; 
+    padding: 5px;
+}
+
+#searchPlace {
+    margin: 1.3rem;
+}
+
+.btn {
+    background: rgb(232, 245, 47);
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+/* Updated styles for responsiveness */
+.image-container {
+    position: relative;
+    width: 100%; /* Make the image container 100% width for responsiveness */
+    max-width: 800px; /* Set a maximum width to prevent excessive stretching */
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(238, 139, 59);
+    font-size: 2rem;
+    font-weight: 900;
+    cursor: grab;
+}
